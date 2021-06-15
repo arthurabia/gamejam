@@ -16,7 +16,7 @@ _global_script_class_icons={
 [application]
 
 config/name="New Game Project"
-run/main_scene="res://World.tscn"
+run/main_scene="res://scenes/World.tscn"
 config/icon="res://icon.png"
 
 [autoload]
@@ -28,6 +28,7 @@ gameState="*res://gameState.gd"
 window/size/width=1280
 window/size/height=720
 window/size/fullscreen=true
+window/dpi/allow_hidpi=true
 window/stretch/mode="2d"
 window/stretch/aspect="keep"
 
@@ -48,4 +49,5 @@ ui_click={
 quality/driver/driver_name="GLES2"
 vram_compression/import_etc=true
 vram_compression/import_etc2=false
+environment/default_clear_color=Color( 0.0392157, 0.0392157, 0.0392157, 1 )
 environment/default_environment="res://default_env.tres"

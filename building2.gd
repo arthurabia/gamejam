@@ -1,5 +1,5 @@
 extends "res://buildingCards.gd"
 
 func _ready():
-	buildingType = 1
+	buildingType = 3
 	pass
